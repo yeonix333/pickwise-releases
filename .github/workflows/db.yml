@@ -1,0 +1,33 @@
+# Refreshes the shared pro-game database (db/) a few times a day, so Pickwise users
+# download one small file from GitHub instead of each crawling gol.gg.
+name: Pro games database
+on:
+  schedule:
+    - cron: "23 */8 * * *"
+  workflow_dispatch:
+  push:
+    paths: ["tools/pwsync"]
+permissions:
+  contents: write
+concurrency:
+  group: db
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync from gol.gg
+        run: |
+          chmod +x tools/pwsync
+          ./tools/pwsync --export-db db
+      - name: Commit
+        run: |
+          git config user.name "pickwise-bot"
+          git config user.email "pickwise-bot@users.noreply.github.com"
+          git add db
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Pro games database $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push
