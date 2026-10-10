@@ -18,10 +18,16 @@ jobs:
     timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
+      - name: Check gol.gg
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 25 -A "Mozilla/5.0" https://gol.gg/tournament/list/ || echo "no answer")
+          echo "::notice::gol.gg answered: $code"
       - name: Sync from gol.gg
         run: |
           chmod +x tools/pwsync
-          ./tools/pwsync --export-db db
+          set -o pipefail
+          ./tools/pwsync --export-db db 2>&1 | tee sync.log || { echo "::error::$(tail -n 4 sync.log | tr '\n' ' ')"; exit 1; }
+          echo "::notice::$(tail -n 2 sync.log | tr '\n' ' ')"
       - name: Commit
         run: |
           git config user.name "pickwise-bot"
