@@ -1,8 +1,8 @@
 {
-  "version": "0.9.9",
+  "version": "0.9.10",
   "date": "2026-10-10",
-  "notes": "• Вел’Коз: основная роль — мид, запасные — бот и сап",
+  "notes": "• Новая музыка: Know My Name (ft. True Damage) — гимн Worlds 2026, инструментальная версия. Встроена в программу и играет на повторе\n• Свои треки из папки music по-прежнему можно включить кнопками ⏮ ⏭",
   "required": false,
-  "exe": "files/0.9.9/Pickwise.exe",
-  "sig": "files/0.9.9/Pickwise.exe.sig"
+  "exe": "files/0.9.10/Pickwise.exe",
+  "sig": "files/0.9.10/Pickwise.exe.sig"
 }
