@@ -26,7 +26,11 @@ jobs:
         run: |
           chmod +x tools/pwsync
           set -o pipefail
-          ./tools/pwsync --export-db db 2>&1 | tee sync.log || { echo "::error::$(tail -n 4 sync.log | tr '\n' ' ')"; exit 1; }
+          if ! ./tools/pwsync --export-db db 2>&1 | tee sync.log; then
+            # gol.gg not answering is not our failure: keep the current database, try again on the next run
+            if grep -q "не отвечает" sync.log; then echo "::notice::gol.gg is not answering — database kept, next attempt on schedule"; exit 0; fi
+            echo "::error::$(tail -n 4 sync.log | tr '\n' ' ')"; exit 1
+          fi
           echo "::notice::$(tail -n 2 sync.log | tr '\n' ' ')"
       - name: Commit
         run: |
