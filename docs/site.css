@@ -108,12 +108,12 @@ p{margin:0}
 .tile.wide{grid-column:span 2}
 .tile.full{grid-column:1/-1}
 .row-tile{flex-direction:row;align-items:center;gap:20px}
-.row-tile > span{display:flex;flex-direction:column;gap:6px}
+.row-tile > span:not(.ring):not(.num){display:flex;flex-direction:column;gap:6px}
 .striped{background:repeating-linear-gradient(135deg,#121214 0 14px,#141416 14px 28px)}
 .t-xl{font-family:var(--display);font-size:30px;line-height:1.1;color:var(--hi)}
 .t-l{font-family:var(--display);font-size:20px;line-height:1.2;color:var(--hi)}
 .t-m{font-family:var(--display);font-size:19px;color:var(--hi)}
-.ring{width:96px;height:96px;flex:none;border-radius:50%;display:grid;place-items:center;border:8px solid #e6e6e6;box-shadow:inset 0 0 0 8px #222224;font-family:var(--display);font-weight:700;font-size:32px;color:var(--hi)}
+.ring{width:96px;height:96px;flex:none;box-sizing:border-box;border-radius:50%;display:grid;place-items:center;line-height:1;text-align:center;border:8px solid #e6e6e6;box-shadow:inset 0 0 0 8px #222224;font-family:var(--display);font-weight:700;font-size:32px;color:var(--hi)}
 .ico{width:40px;height:40px;flex:none;fill:none;stroke:#e6e6e6;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 .num{font-family:var(--display);font-weight:700;font-size:42px;color:var(--hi)}
 .bars{margin-top:auto;display:flex;flex-direction:column;gap:10px}
