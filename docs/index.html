@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Pickwise — помощник на драфте League of Legends</title>
+<meta name="description" content="Pickwise читает выбор чемпионов из клиента LoL и за секунды подсказывает пик и бан: контрпики, пулы, профиль игрока и разбор игры.">
+<meta property="og:title" content="Pickwise — пикай как аналитик">
+<meta property="og:description" content="Помощник на драфте League of Legends: контрпики, баны под твой пик, профиль игрока и разбор игры.">
+<meta property="og:image" content="https://yeonix333.github.io/pickwise-releases/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Навигация">
+    <a class="brand" href="#top"><span class="dot" aria-hidden="true"></span>pickwise</a>
+    <span class="links">
+      <a href="#how">Как работает</a>
+      <a href="#bento">Возможности</a>
+      <a href="#themes">Темы</a>
+    </span>
+    <a class="btn light sm" href="#download">Скачать</a>
+  </nav>
+</header>
+
+<main>
+  <!-- hero -->
+  <section id="top" class="hero wrap">
+    <div class="hero-text reveal">
+      <span class="mono muted">[ league of legends · помощник на драфте · <span data-ver>v0.9</span> ]</span>
+      <h1>Пикай как аналитик.<br><span class="dim">Не как рандом.</span></h1>
+      <p class="lead">Pickwise смотрит в выбор чемпионов вместе с тобой и за секунды отвечает на главный вопрос драфта: кого брать именно против этого соперника — и почему.</p>
+      <div class="row">
+        <a class="btn light" href="#download"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>Скачать для Windows</a>
+        <a class="btn ghost" href="#how">Посмотреть, как работает</a>
+      </div>
+      <div class="stats">
+        <div><b>2 500+</b><small>про-игр в базе</small></div>
+        <div><b>&lt; 1 с</b><small>на подсказку</small></div>
+        <div><b>0</b><small>действий в клиенте</small></div>
+      </div>
+    </div>
+
+    <div class="hero-art" id="heroArt">
+      <div class="float f1"><small class="mono">контрпик</small><div class="fl-h"><b>Нами</b><span>+5.2</span></div><small>против Леоны · 54.8% · 2 300 игр</small></div>
+      <div class="float f2"><small class="mono">шанс по драфту</small><b class="big">58%</b><i class="bar"><b style="width:58%"></b></i></div>
+      <div class="float f3 mono">● клиент LoL · только чтение</div>
+      <div class="owl-box">
+        <div class="owl-bob">
+          <svg class="owl" viewBox="0 0 200 200" role="img" aria-label="Сова Pickwise">
+            <defs>
+              <radialGradient id="owBody" cx="38%" cy="30%" r="75%"><stop offset="0" stop-color="#f2f2f2"/><stop offset=".35" stop-color="#b9b9bc"/><stop offset=".72" stop-color="#5c5c60"/><stop offset="1" stop-color="#1c1c1e"/></radialGradient>
+              <radialGradient id="owBelly" cx="45%" cy="35%" r="70%"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+              <linearGradient id="owWing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8d8d91"/><stop offset=".6" stop-color="#3c3c40"/><stop offset="1" stop-color="#18181a"/></linearGradient>
+              <radialGradient id="owSocket" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#2a2a2d"/><stop offset=".8" stop-color="#0f0f10"/><stop offset="1" stop-color="#3a3a3d"/></radialGradient>
+              <radialGradient id="owIris" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#bdbdc2"/><stop offset=".8" stop-color="#5a5a60"/><stop offset="1" stop-color="#2a2a2e"/></radialGradient>
+              <linearGradient id="owBeak" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8e8e8"/><stop offset="1" stop-color="#6a6a6e"/></linearGradient>
+              <radialGradient id="owRim" cx="80%" cy="70%" r="60%"><stop offset=".6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".22"/></radialGradient>
+            </defs>
+            <path d="M40 46 L64 66 Q100 54 136 66 L160 46 L166 118 Q166 178 100 186 Q34 178 34 118 Z" fill="url(#owBody)"/>
+            <path d="M40 46 L64 66 Q100 54 136 66 L160 46 L166 118 Q166 178 100 186 Q34 178 34 118 Z" fill="url(#owRim)"/>
+            <ellipse cx="100" cy="146" rx="40" ry="34" fill="url(#owBelly)"/>
+            <path d="M84 140 q4 5 8 0 M96 146 q4 5 8 0 M108 140 q4 5 8 0 M90 156 q4 5 8 0 M102 156 q4 5 8 0" fill="none" stroke="#4a4a4e" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+            <path d="M36 112 Q28 150 52 176 Q60 150 58 118 Z" fill="url(#owWing)"/>
+            <path d="M164 112 Q172 150 148 176 Q140 150 142 118 Z" fill="url(#owWing)"/>
+            <circle cx="74" cy="104" r="27" fill="url(#owSocket)"/>
+            <circle cx="126" cy="104" r="27" fill="url(#owSocket)"/>
+            <circle cx="74" cy="104" r="27" fill="none" stroke="#d8d8dc" stroke-opacity=".35" stroke-width="1.5"/>
+            <circle cx="126" cy="104" r="27" fill="none" stroke="#d8d8dc" stroke-opacity=".35" stroke-width="1.5"/>
+            <g id="owlEyes">
+              <circle cx="74" cy="104" r="14" fill="url(#owIris)"/>
+              <circle cx="126" cy="104" r="14" fill="url(#owIris)"/>
+              <circle cx="74" cy="104" r="6.5" fill="#0d0d0e"/>
+              <circle cx="126" cy="104" r="6.5" fill="#0d0d0e"/>
+              <circle cx="70" cy="99" r="3.6" fill="#fff"/>
+              <circle cx="122" cy="99" r="3.6" fill="#fff"/>
+              <circle cx="78" cy="108" r="1.4" fill="#fff" opacity=".7"/>
+              <circle cx="130" cy="108" r="1.4" fill="#fff" opacity=".7"/>
+            </g>
+            <g id="owlLids" class="lids"><rect x="44" y="74" width="60" height="0" fill="#3a3a3d"/><rect x="96" y="74" width="60" height="0" fill="#3a3a3d"/></g>
+            <path d="M92 124 L108 124 L100 138 Z" fill="url(#owBeak)"/>
+            <path d="M92 124 L108 124 L100 128 Z" fill="#fff" opacity=".35"/>
+            <path d="M84 184 q-3 6 -8 7 M88 185 q0 7 -2 9 M92 185 q3 6 2 9 M108 185 q-3 6 -2 9 M112 185 q0 7 2 9 M116 184 q3 6 8 7" fill="none" stroke="#7a7a7e" stroke-width="3" stroke-linecap="round"/>
+            <ellipse cx="78" cy="70" rx="22" ry="7" fill="#fff" opacity=".18" transform="rotate(-12 78 70)"/>
+          </svg>
+        </div>
+        <div class="owl-shadow" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- how it works -->
+  <section id="how" class="wrap sec">
+    <div class="sec-head reveal">
+      <h2>Один драфт —<br><span class="dim">четыре подсказки</span></h2>
+      <p>Нажми на шаг — покажу, что Pickwise говорит в этот момент.</p>
+    </div>
+    <div class="steps" id="steps" role="tablist" aria-label="Шаги драфта"></div>
+    <div class="step-view reveal" id="stepView" role="tabpanel" aria-live="polite"></div>
+  </section>
+
+  <!-- bento -->
+  <section id="bento" class="wrap sec">
+    <h2 class="reveal">Внутри Pickwise</h2>
+    <div class="bento">
+      <div class="tile big reveal">
+        <span class="mono muted">/ контрпики</span>
+        <b class="t-xl">Сначала — кто бьёт твоего соперника</b>
+        <p>Когда соперник на твоей роли известен, главным становится винрейт против него. Сила в патче только уточняет.</p>
+        <div class="bars" id="bars">
+          <div><span>Нами</span><i><b data-w="82"></b></i><span class="mono">54.8%</span></div>
+          <div><span>Милио</span><i><b data-w="68"></b></i><span class="mono">53.1%</span></div>
+          <div><span>Лулу</span><i><b data-w="52"></b></i><span class="mono">51.6%</span></div>
+        </div>
+      </div>
+      <div class="tile wide row-tile reveal">
+        <span class="ring" aria-hidden="true">B</span>
+        <span><span class="mono muted">/ профиль</span><b class="t-l">Тир за сезон, пул по ролям, мастерство</b><p>Клик по игроку в драфте — и его профиль открыт.</p></span>
+      </div>
+      <div class="tile reveal"><span class="mono muted">/ лобби</span><b class="t-m">Своя игра и 5×5</b><p>Роли из лобби, пулы — до начала драфта.</p></div>
+      <div class="tile reveal"><span class="mono muted">/ разбор</span><b class="t-m">После игры</b><p>Линии, золото по минутам, объекты.</p></div>
+      <div class="tile reveal"><span class="mono muted">/ fearless</span><b class="t-m">Серии без повторов</b><p>Сыгранные чемпионы уходят из выбора.</p></div>
+      <div class="tile reveal"><span class="mono muted">/ пати</span><b class="t-m">Премейд в соло</b><p>Твой дуо — с пулом и мастерством.</p></div>
+      <div class="tile wide row-tile reveal">
+        <span class="num">20</span>
+        <span><b class="t-l">шагов драфта под контролем</b><p>Баны, пики, препики тиммейтов и итоговая оценка состава.</p></span>
+      </div>
+      <div class="tile full row-tile striped reveal">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.4 3.1 8.2 7.5 9.5 4.4-1.3 7.5-5.1 7.5-9.5V6Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg>
+        <span><b class="t-l">Только читает. Ничего не нажимает.</b><p>Нет оверлеев в игре, скрытые ники в ранкеде не раскрываются, обновления подписаны.</p></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- themes -->
+  <section id="themes" class="wrap sec">
+    <div class="sec-head reveal">
+      <h2>Пять характеров<br><span class="dim">одного помощника</span></h2>
+      <p>У каждой темы свой маскот, звуки и эффекты. Нажми на карту.</p>
+    </div>
+    <div class="fan" id="fan"></div>
+  </section>
+
+  <!-- download -->
+  <section id="download" class="wrap sec">
+    <div class="dl">
+      <div class="dl-main reveal">
+        <span class="mono">бесплатно · windows 10 / 11 · <span data-size>~15 МБ</span></span>
+        <b>Следующий драфт — твой.</b>
+        <a class="btn dark" id="dlBtn" href="https://github.com/yeonix333/pickwise-releases/raw/main/files/0.9.28/Pickwise.exe"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>Скачать Pickwise <span data-ver>0.9.28</span></a>
+        <small>Windows может спросить подтверждение: «Подробнее» → «Выполнить в любом случае». Дальше Pickwise обновляется сам.</small>
+      </div>
+      <div class="dl-side reveal">
+        <b class="t-l">Что нужно</b>
+        <div class="req"><span>ОС</span><span>Windows 10 / 11, 64-бит</span></div>
+        <div class="req"><span>Игра</span><span>клиент League of Legends</span></div>
+        <div class="req"><span>Место</span><span data-size>~15 МБ</span></div>
+        <div class="req"><span>Интернет</span><span>для статистики и обновлений</span></div>
+        <div class="contacts">
+          <a class="btn ghost sm" href="https://discord.gg/Bht3MKUtt" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 15.5c2.3 1 4.7 1 7 0M9 12h.01M15 12h.01M7 17l-2 2c-1-3-1.5-6-1-9 1-2 2.6-3.2 4.5-4l.5 1c2-.4 4-.4 6 0l.5-1c1.9.8 3.5 2 4.5 4 .5 3 0 6-1 9l-2-2"/></svg>Discord</a>
+          <span class="tg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 4 3 11l6 2 2 6 3-4 5 4z"/></svg>Telegram · ethereal 1v9</span>
+        </div>
+      </div>
+    </div>
+    <div class="changes reveal" id="changes" hidden>
+      <span class="mono muted">что нового в <span data-ver></span></span>
+      <ul id="changeList"></ul>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <div class="foot-row"><span class="brand-f">pickwise</span><span class="mono muted">made by ttls · 2026</span></div>
+  <p>Pickwise isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
