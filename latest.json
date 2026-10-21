@@ -1,8 +1,8 @@
 {
-  "version": "0.9.31",
+  "version": "0.9.32",
   "date": "2026-10-22",
   "notes": "Вкладка «Ворлдс»: мелкие правки.",
   "required": false,
-  "exe": "files/0.9.31/Pickwise.exe",
-  "sig": "files/0.9.31/Pickwise.exe.sig"
+  "exe": "files/0.9.32/Pickwise.exe",
+  "sig": "files/0.9.32/Pickwise.exe.sig"
 }
