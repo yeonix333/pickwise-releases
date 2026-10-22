@@ -3,7 +3,7 @@
 Драфт-тренер для League of Legends: подсказки банов и пиков с учётом пулов вашей команды и соперников, матчапов, синергий и меты про-сцены; подключение к клиенту LoL, история драфтов, план на игру.
 
 ## Скачать
-Последняя версия: **0.9.47** — [скачать Pickwise.exe](https://github.com/yeonix333/pickwise-releases/raw/main/files/0.9.47/Pickwise.exe)
+Последняя версия: **0.9.48** — [скачать Pickwise.exe](https://github.com/yeonix333/pickwise-releases/raw/main/files/0.9.48/Pickwise.exe)
 
 1. Скачай `Pickwise.exe` и положи в отдельную папку (не в Program Files).
 2. Запусти. Если Windows покажет «Система Windows защитила ваш компьютер» — «Подробнее» → «Выполнить в любом случае».
