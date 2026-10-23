@@ -1,0 +1,2 @@
+Vosk speech recognition runtime 0.3.45 (https://github.com/alphacep/vosk-api), Apache License 2.0.
+The Russian model vosk-model-small-ru-0.22 is downloaded by the program from https://alphacephei.com/vosk/models (Apache License 2.0).
