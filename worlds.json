@@ -896,7 +896,7 @@
    "winRate": null
   }
  ],
- "publishedAt": "2026-10-23T18:59:34Z",
+ "publishedAt": "2026-10-23T19:04:37Z",
  "stages": [
   {
    "id": "6fa7d88e-abaf-537a-b23c-22b18b019f67",
@@ -1318,7 +1318,7 @@
        },
        "round": "Round 1",
        "scheduledAt": "2026-10-23T19:00:00.000Z",
-       "status": "scheduled",
+       "status": "live",
        "teams": [
         {
          "candidates": null,
@@ -1329,7 +1329,7 @@
           "publicId": 1181,
           "publicSlug": "bilibili-gaming"
          },
-         "score": null,
+         "score": 0,
          "shortName": "BLG"
         },
         {
@@ -1341,7 +1341,7 @@
           "publicId": 747,
           "publicSlug": "movistar-koi"
          },
-         "score": null,
+         "score": 0,
          "shortName": "MKOI"
         }
        ]
