@@ -60,6 +60,15 @@
   },
   {
    "bans": 11,
+   "blueBans": 8,
+   "champion": "Olaf",
+   "picks": 4,
+   "presence": 0.625,
+   "redBans": 3,
+   "winRate": 1
+  },
+  {
+   "bans": 11,
    "blueBans": 4,
    "champion": "Seraphine",
    "picks": 4,
@@ -68,12 +77,12 @@
    "winRate": 0.75
   },
   {
-   "bans": 10,
-   "blueBans": 7,
-   "champion": "Olaf",
-   "picks": 4,
+   "bans": 9,
+   "blueBans": 5,
+   "champion": "Vi",
+   "picks": 5,
    "presence": 0.583,
-   "redBans": 3,
+   "redBans": 4,
    "winRate": 1
   },
   {
@@ -87,11 +96,20 @@
   },
   {
    "bans": 8,
-   "blueBans": 4,
-   "champion": "Vi",
-   "picks": 5,
-   "presence": 0.542,
-   "redBans": 4,
+   "blueBans": 5,
+   "champion": "Akali",
+   "picks": 4,
+   "presence": 0.5,
+   "redBans": 3,
+   "winRate": 0.5
+  },
+  {
+   "bans": 8,
+   "blueBans": 5,
+   "champion": "Cassiopeia",
+   "picks": 4,
+   "presence": 0.5,
+   "redBans": 3,
    "winRate": 1
   },
   {
@@ -111,24 +129,6 @@
    "presence": 0.5,
    "redBans": 4,
    "winRate": 0.5
-  },
-  {
-   "bans": 7,
-   "blueBans": 5,
-   "champion": "Akali",
-   "picks": 4,
-   "presence": 0.458,
-   "redBans": 2,
-   "winRate": 0.5
-  },
-  {
-   "bans": 7,
-   "blueBans": 5,
-   "champion": "Cassiopeia",
-   "picks": 4,
-   "presence": 0.458,
-   "redBans": 2,
-   "winRate": 1
   },
   {
    "bans": 3,
@@ -186,6 +186,15 @@
   },
   {
    "bans": 4,
+   "blueBans": 2,
+   "champion": "Qiyana",
+   "picks": 5,
+   "presence": 0.375,
+   "redBans": 2,
+   "winRate": 0.8
+  },
+  {
+   "bans": 4,
    "blueBans": 1,
    "champion": "Syndra",
    "picks": 5,
@@ -201,6 +210,15 @@
    "presence": 0.333,
    "redBans": 1,
    "winRate": 0.333
+  },
+  {
+   "bans": 4,
+   "blueBans": 2,
+   "champion": "Jayce",
+   "picks": 4,
+   "presence": 0.333,
+   "redBans": 2,
+   "winRate": 0.75
   },
   {
    "bans": 3,
@@ -219,6 +237,15 @@
    "presence": 0.333,
    "redBans": 0,
    "winRate": 0.333
+  },
+  {
+   "bans": 4,
+   "blueBans": 1,
+   "champion": "Nautilus",
+   "picks": 4,
+   "presence": 0.333,
+   "redBans": 3,
+   "winRate": 0.5
   },
   {
    "bans": 5,
@@ -241,15 +268,6 @@
   {
    "bans": 3,
    "blueBans": 2,
-   "champion": "Qiyana",
-   "picks": 5,
-   "presence": 0.333,
-   "redBans": 1,
-   "winRate": 0.8
-  },
-  {
-   "bans": 3,
-   "blueBans": 2,
    "champion": "Viktor",
    "picks": 5,
    "presence": 0.333,
@@ -266,15 +284,6 @@
    "winRate": 1
   },
   {
-   "bans": 3,
-   "blueBans": 1,
-   "champion": "Jayce",
-   "picks": 4,
-   "presence": 0.292,
-   "redBans": 2,
-   "winRate": 0.75
-  },
-  {
    "bans": 6,
    "blueBans": 2,
    "champion": "Maokai",
@@ -282,15 +291,6 @@
    "presence": 0.292,
    "redBans": 4,
    "winRate": 0
-  },
-  {
-   "bans": 3,
-   "blueBans": 0,
-   "champion": "Nautilus",
-   "picks": 4,
-   "presence": 0.292,
-   "redBans": 3,
-   "winRate": 0.5
   },
   {
    "bans": 5,
@@ -344,6 +344,15 @@
    "picks": 4,
    "presence": 0.25,
    "redBans": 1,
+   "winRate": 0.5
+  },
+  {
+   "bans": 4,
+   "blueBans": 2,
+   "champion": "Renekton",
+   "picks": 2,
+   "presence": 0.25,
+   "redBans": 2,
    "winRate": 0.5
   },
   {
@@ -408,15 +417,6 @@
    "presence": 0.208,
    "redBans": 0,
    "winRate": 0.25
-  },
-  {
-   "bans": 3,
-   "blueBans": 2,
-   "champion": "Renekton",
-   "picks": 2,
-   "presence": 0.208,
-   "redBans": 1,
-   "winRate": 0.5
   },
   {
    "bans": 2,
@@ -529,6 +529,24 @@
   {
    "bans": 1,
    "blueBans": 1,
+   "champion": "Bard",
+   "picks": 2,
+   "presence": 0.125,
+   "redBans": 0,
+   "winRate": 0.5
+  },
+  {
+   "bans": 1,
+   "blueBans": 0,
+   "champion": "Corki",
+   "picks": 2,
+   "presence": 0.125,
+   "redBans": 1,
+   "winRate": 1
+  },
+  {
+   "bans": 1,
+   "blueBans": 1,
    "champion": "Kai'Sa",
    "picks": 2,
    "presence": 0.125,
@@ -588,24 +606,6 @@
    "presence": 0.083,
    "redBans": 0,
    "winRate": 0
-  },
-  {
-   "bans": 0,
-   "blueBans": 0,
-   "champion": "Bard",
-   "picks": 2,
-   "presence": 0.083,
-   "redBans": 0,
-   "winRate": 0.5
-  },
-  {
-   "bans": 0,
-   "blueBans": 0,
-   "champion": "Corki",
-   "picks": 2,
-   "presence": 0.083,
-   "redBans": 0,
-   "winRate": 1
   },
   {
    "bans": 1,
@@ -896,7 +896,7 @@
    "winRate": null
   }
  ],
- "publishedAt": "2026-10-23T19:20:12Z",
+ "publishedAt": "2026-10-23T19:25:13Z",
  "stages": [
   {
    "id": "6fa7d88e-abaf-537a-b23c-22b18b019f67",
