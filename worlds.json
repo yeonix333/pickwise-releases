@@ -3,25 +3,25 @@
   "bestRating": {
    "player": {
     "country": "KR",
-    "handle": "kyeahoo",
-    "id": "066048b1-5a9e-5374-b3c9-8364468a91e8",
-    "photoUrl": "https://assets.dpm.lol/player-assets/sha256/57/57cfdd1fee9cfaa01bc33b72e10ef97d57ca4423b4795cc6d91fcbf21c193764.webp",
+    "handle": "Doran",
+    "id": "48ef9014-ff50-534e-8742-9cf21da2d15c",
+    "photoUrl": "https://assets.dpm.lol/player-assets/sha256/2d/2dcbcf85591d183e42e0414a7af2ae60cfa69d6232c0debd85ef461f52203442.webp",
     "ref": {
-     "publicId": 14231,
-     "publicSlug": "kyeahoo"
+     "publicId": 6817,
+     "publicSlug": "doran"
     },
     "team": {
-     "id": "829bf93b-3787-53ed-a291-fa8eabbcaf09",
-     "logoUrl": "https://assets.dpm.lol/team-assets/sha256/ae/aea0a85631116aa2a6c90efbcd0ac3cb39a354cbc46d274341c3fd505c1b54d8.png",
-     "name": "Karmine Corp",
+     "id": "077112f8-78cd-523b-8d75-7dc7bc47cdf7",
+     "logoUrl": "https://assets.dpm.lol/team-assets/sha256/c2/c225140b0c0160c3c63e93c40f24842170b4dd0cf64d3e910df8b6b37edf9bcf.png",
+     "name": "T1",
      "ref": {
-      "publicId": 1858,
-      "publicSlug": "karmine-corp"
+      "publicId": 211,
+      "publicSlug": "t1"
      },
-     "shortName": "KC"
+     "shortName": "T1"
     }
    },
-   "rating": 76
+   "rating": 100
   },
   "mostKills": {
    "kills": 50,
@@ -896,7 +896,7 @@
    "winRate": null
   }
  ],
- "publishedAt": "2026-10-24T02:17:24Z",
+ "publishedAt": "2026-10-24T16:48:19Z",
  "stages": [
   {
    "id": "6fa7d88e-abaf-537a-b23c-22b18b019f67",
