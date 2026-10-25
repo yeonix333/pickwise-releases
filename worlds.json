@@ -59,20 +59,20 @@
    "winRate": 0.75
   },
   {
-   "bans": 22,
+   "bans": 23,
    "blueBans": 12,
    "champion": "Vi",
    "picks": 7,
-   "presence": 0.725,
-   "redBans": 10,
+   "presence": 0.75,
+   "redBans": 11,
    "winRate": 0.857
   },
   {
-   "bans": 19,
-   "blueBans": 10,
+   "bans": 20,
+   "blueBans": 11,
    "champion": "Olaf",
    "picks": 8,
-   "presence": 0.675,
+   "presence": 0.7,
    "redBans": 9,
    "winRate": 0.625
   },
@@ -95,6 +95,24 @@
    "winRate": 0.833
   },
   {
+   "bans": 13,
+   "blueBans": 6,
+   "champion": "Qiyana",
+   "picks": 10,
+   "presence": 0.575,
+   "redBans": 7,
+   "winRate": 0.7
+  },
+  {
+   "bans": 13,
+   "blueBans": 9,
+   "champion": "Renata Glasc",
+   "picks": 10,
+   "presence": 0.575,
+   "redBans": 4,
+   "winRate": 0.4
+  },
+  {
    "bans": 14,
    "blueBans": 9,
    "champion": "Akali",
@@ -104,24 +122,6 @@
    "winRate": 0.25
   },
   {
-   "bans": 12,
-   "blueBans": 6,
-   "champion": "Qiyana",
-   "picks": 10,
-   "presence": 0.55,
-   "redBans": 6,
-   "winRate": 0.7
-  },
-  {
-   "bans": 12,
-   "blueBans": 8,
-   "champion": "Renata Glasc",
-   "picks": 10,
-   "presence": 0.55,
-   "redBans": 4,
-   "winRate": 0.4
-  },
-  {
    "bans": 8,
    "blueBans": 4,
    "champion": "K'Sante",
@@ -129,6 +129,15 @@
    "presence": 0.525,
    "redBans": 4,
    "winRate": 0.308
+  },
+  {
+   "bans": 8,
+   "blueBans": 3,
+   "champion": "Lee Sin",
+   "picks": 13,
+   "presence": 0.525,
+   "redBans": 5,
+   "winRate": 0.462
   },
   {
    "bans": 9,
@@ -158,15 +167,6 @@
    "winRate": 0.5
   },
   {
-   "bans": 7,
-   "blueBans": 3,
-   "champion": "Lee Sin",
-   "picks": 13,
-   "presence": 0.5,
-   "redBans": 4,
-   "winRate": 0.462
-  },
-  {
    "bans": 10,
    "blueBans": 4,
    "champion": "Orianna",
@@ -174,6 +174,15 @@
    "presence": 0.475,
    "redBans": 6,
    "winRate": 0.556
+  },
+  {
+   "bans": 5,
+   "blueBans": 2,
+   "champion": "Jarvan IV",
+   "picks": 13,
+   "presence": 0.45,
+   "redBans": 3,
+   "winRate": 0.538
   },
   {
    "bans": 10,
@@ -185,13 +194,13 @@
    "winRate": 0.5
   },
   {
-   "bans": 4,
-   "blueBans": 1,
-   "champion": "Jarvan IV",
-   "picks": 13,
+   "bans": 8,
+   "blueBans": 3,
+   "champion": "Jhin",
+   "picks": 9,
    "presence": 0.425,
-   "redBans": 3,
-   "winRate": 0.538
+   "redBans": 5,
+   "winRate": 0.667
   },
   {
    "bans": 9,
@@ -201,15 +210,6 @@
    "presence": 0.4,
    "redBans": 5,
    "winRate": 0.571
-  },
-  {
-   "bans": 7,
-   "blueBans": 3,
-   "champion": "Jhin",
-   "picks": 9,
-   "presence": 0.4,
-   "redBans": 4,
-   "winRate": 0.667
   },
   {
    "bans": 7,
@@ -230,11 +230,11 @@
    "winRate": 0.571
   },
   {
-   "bans": 9,
-   "blueBans": 2,
+   "bans": 10,
+   "blueBans": 3,
    "champion": "Galio",
    "picks": 5,
-   "presence": 0.35,
+   "presence": 0.375,
    "redBans": 7,
    "winRate": 0.6
   },
@@ -347,6 +347,15 @@
    "winRate": 0.333
   },
   {
+   "bans": 5,
+   "blueBans": 3,
+   "champion": "Renekton",
+   "picks": 3,
+   "presence": 0.2,
+   "redBans": 2,
+   "winRate": 0.667
+  },
+  {
    "bans": 7,
    "blueBans": 3,
    "champion": "Skarner",
@@ -401,15 +410,6 @@
    "winRate": 0
   },
   {
-   "bans": 4,
-   "blueBans": 2,
-   "champion": "Renekton",
-   "picks": 3,
-   "presence": 0.175,
-   "redBans": 2,
-   "winRate": 0.667
-  },
-  {
    "bans": 1,
    "blueBans": 1,
    "champion": "Yunara",
@@ -458,6 +458,15 @@
    "bans": 2,
    "blueBans": 1,
    "champion": "Anivia",
+   "picks": 3,
+   "presence": 0.125,
+   "redBans": 1,
+   "winRate": 0.333
+  },
+  {
+   "bans": 2,
+   "blueBans": 1,
+   "champion": "Kai'Sa",
    "picks": 3,
    "presence": 0.125,
    "redBans": 1,
@@ -552,15 +561,6 @@
    "presence": 0.1,
    "redBans": 0,
    "winRate": 1
-  },
-  {
-   "bans": 1,
-   "blueBans": 1,
-   "champion": "Kai'Sa",
-   "picks": 3,
-   "presence": 0.1,
-   "redBans": 0,
-   "winRate": 0.333
   },
   {
    "bans": 1,
@@ -905,7 +905,7 @@
    "winRate": null
   }
  ],
- "publishedAt": "2026-10-25T19:23:38Z",
+ "publishedAt": "2026-10-25T19:28:41Z",
  "stages": [
   {
    "id": "6fa7d88e-abaf-537a-b23c-22b18b019f67",
