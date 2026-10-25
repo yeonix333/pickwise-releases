@@ -46,51 +46,51 @@
     }
    }
   },
-  "uniqueChampions": 90
+  "uniqueChampions": 91
  },
  "meta": [
   {
    "bans": 30,
    "blueBans": 13,
    "champion": "Nocturne",
-   "picks": 6,
-   "presence": 0.947,
+   "picks": 8,
+   "presence": 0.95,
    "redBans": 17,
-   "winRate": 0.667
+   "winRate": 0.75
   },
   {
-   "bans": 21,
+   "bans": 22,
    "blueBans": 12,
    "champion": "Vi",
    "picks": 7,
-   "presence": 0.737,
-   "redBans": 9,
+   "presence": 0.725,
+   "redBans": 10,
    "winRate": 0.857
   },
   {
    "bans": 19,
    "blueBans": 10,
    "champion": "Olaf",
-   "picks": 7,
-   "presence": 0.684,
+   "picks": 8,
+   "presence": 0.675,
    "redBans": 9,
-   "winRate": 0.714
+   "winRate": 0.625
   },
   {
    "bans": 12,
    "blueBans": 6,
    "champion": "Ezreal",
-   "picks": 12,
-   "presence": 0.632,
+   "picks": 13,
+   "presence": 0.625,
    "redBans": 6,
-   "winRate": 0.583
+   "winRate": 0.538
   },
   {
-   "bans": 17,
-   "blueBans": 12,
+   "bans": 18,
+   "blueBans": 13,
    "champion": "Cassiopeia",
    "picks": 6,
-   "presence": 0.605,
+   "presence": 0.6,
    "redBans": 5,
    "winRate": 0.833
   },
@@ -98,72 +98,90 @@
    "bans": 14,
    "blueBans": 9,
    "champion": "Akali",
-   "picks": 7,
-   "presence": 0.553,
+   "picks": 8,
+   "presence": 0.55,
    "redBans": 5,
-   "winRate": 0.286
+   "winRate": 0.25
+  },
+  {
+   "bans": 12,
+   "blueBans": 6,
+   "champion": "Qiyana",
+   "picks": 10,
+   "presence": 0.55,
+   "redBans": 6,
+   "winRate": 0.7
+  },
+  {
+   "bans": 12,
+   "blueBans": 8,
+   "champion": "Renata Glasc",
+   "picks": 10,
+   "presence": 0.55,
+   "redBans": 4,
+   "winRate": 0.4
   },
   {
    "bans": 8,
    "blueBans": 4,
    "champion": "K'Sante",
    "picks": 13,
-   "presence": 0.553,
+   "presence": 0.525,
    "redBans": 4,
    "winRate": 0.308
   },
   {
-   "bans": 12,
-   "blueBans": 6,
-   "champion": "Qiyana",
-   "picks": 9,
-   "presence": 0.553,
-   "redBans": 6,
-   "winRate": 0.778
-  },
-  {
-   "bans": 12,
-   "blueBans": 8,
-   "champion": "Renata Glasc",
-   "picks": 9,
-   "presence": 0.553,
-   "redBans": 4,
-   "winRate": 0.444
+   "bans": 9,
+   "blueBans": 4,
+   "champion": "Rumble",
+   "picks": 12,
+   "presence": 0.525,
+   "redBans": 5,
+   "winRate": 0.417
   },
   {
    "bans": 15,
    "blueBans": 6,
    "champion": "Seraphine",
    "picks": 6,
-   "presence": 0.553,
+   "presence": 0.525,
    "redBans": 9,
    "winRate": 0.667
+  },
+  {
+   "bans": 11,
+   "blueBans": 2,
+   "champion": "Syndra",
+   "picks": 10,
+   "presence": 0.525,
+   "redBans": 9,
+   "winRate": 0.5
   },
   {
    "bans": 7,
    "blueBans": 3,
    "champion": "Lee Sin",
    "picks": 13,
-   "presence": 0.526,
+   "presence": 0.5,
    "redBans": 4,
    "winRate": 0.462
   },
   {
-   "bans": 8,
+   "bans": 10,
    "blueBans": 4,
-   "champion": "Rumble",
-   "picks": 12,
-   "presence": 0.526,
-   "redBans": 4,
-   "winRate": 0.417
+   "champion": "Orianna",
+   "picks": 9,
+   "presence": 0.475,
+   "redBans": 6,
+   "winRate": 0.556
   },
   {
    "bans": 10,
-   "blueBans": 2,
-   "champion": "Syndra",
-   "picks": 10,
-   "presence": 0.526,
-   "redBans": 8,
+   "blueBans": 7,
+   "champion": "Locke",
+   "picks": 8,
+   "presence": 0.45,
+   "redBans": 3,
    "winRate": 0.5
   },
   {
@@ -171,43 +189,25 @@
    "blueBans": 1,
    "champion": "Jarvan IV",
    "picks": 13,
-   "presence": 0.447,
+   "presence": 0.425,
    "redBans": 3,
    "winRate": 0.538
   },
   {
    "bans": 9,
-   "blueBans": 6,
-   "champion": "Locke",
-   "picks": 8,
-   "presence": 0.447,
-   "redBans": 3,
-   "winRate": 0.5
-  },
-  {
-   "bans": 9,
    "blueBans": 4,
-   "champion": "Orianna",
-   "picks": 8,
-   "presence": 0.447,
-   "redBans": 5,
-   "winRate": 0.5
-  },
-  {
-   "bans": 8,
-   "blueBans": 3,
    "champion": "Jayce",
    "picks": 7,
-   "presence": 0.395,
+   "presence": 0.4,
    "redBans": 5,
    "winRate": 0.571
   },
   {
-   "bans": 6,
-   "blueBans": 2,
+   "bans": 7,
+   "blueBans": 3,
    "champion": "Jhin",
    "picks": 9,
-   "presence": 0.395,
+   "presence": 0.4,
    "redBans": 4,
    "winRate": 0.667
   },
@@ -215,53 +215,62 @@
    "bans": 7,
    "blueBans": 2,
    "champion": "Lulu",
-   "picks": 8,
-   "presence": 0.395,
+   "picks": 9,
+   "presence": 0.4,
    "redBans": 5,
-   "winRate": 0.5
+   "winRate": 0.556
   },
   {
    "bans": 9,
    "blueBans": 2,
    "champion": "Nautilus",
-   "picks": 6,
-   "presence": 0.395,
+   "picks": 7,
+   "presence": 0.4,
    "redBans": 7,
-   "winRate": 0.5
+   "winRate": 0.571
+  },
+  {
+   "bans": 9,
+   "blueBans": 2,
+   "champion": "Galio",
+   "picks": 5,
+   "presence": 0.35,
+   "redBans": 7,
+   "winRate": 0.6
   },
   {
    "bans": 11,
    "blueBans": 5,
    "champion": "Caitlyn",
    "picks": 2,
-   "presence": 0.342,
+   "presence": 0.325,
    "redBans": 6,
    "winRate": 0
-  },
-  {
-   "bans": 8,
-   "blueBans": 1,
-   "champion": "Galio",
-   "picks": 5,
-   "presence": 0.342,
-   "redBans": 7,
-   "winRate": 0.6
   },
   {
    "bans": 2,
    "blueBans": 1,
    "champion": "Kalista",
-   "picks": 9,
-   "presence": 0.289,
+   "picks": 10,
+   "presence": 0.3,
    "redBans": 1,
-   "winRate": 0.444
+   "winRate": 0.4
+  },
+  {
+   "bans": 5,
+   "blueBans": 2,
+   "champion": "Karma",
+   "picks": 6,
+   "presence": 0.275,
+   "redBans": 3,
+   "winRate": 0.667
   },
   {
    "bans": 4,
    "blueBans": 3,
    "champion": "Lucian",
    "picks": 7,
-   "presence": 0.289,
+   "presence": 0.275,
    "redBans": 1,
    "winRate": 0.286
   },
@@ -270,7 +279,7 @@
    "blueBans": 5,
    "champion": "Pantheon",
    "picks": 4,
-   "presence": 0.289,
+   "presence": 0.275,
    "redBans": 2,
    "winRate": 0
   },
@@ -279,7 +288,7 @@
    "blueBans": 2,
    "champion": "Viktor",
    "picks": 8,
-   "presence": 0.289,
+   "presence": 0.275,
    "redBans": 1,
    "winRate": 0.75
   },
@@ -288,34 +297,25 @@
    "blueBans": 0,
    "champion": "Alistar",
    "picks": 10,
-   "presence": 0.263,
+   "presence": 0.25,
    "redBans": 0,
    "winRate": 0.4
-  },
-  {
-   "bans": 5,
-   "blueBans": 2,
-   "champion": "Karma",
-   "picks": 5,
-   "presence": 0.263,
-   "redBans": 3,
-   "winRate": 0.8
   },
   {
    "bans": 1,
    "blueBans": 1,
    "champion": "Ambessa",
-   "picks": 8,
-   "presence": 0.237,
+   "picks": 9,
+   "presence": 0.25,
    "redBans": 0,
-   "winRate": 0.375
+   "winRate": 0.444
   },
   {
    "bans": 5,
    "blueBans": 4,
    "champion": "Jax",
    "picks": 4,
-   "presence": 0.237,
+   "presence": 0.225,
    "redBans": 1,
    "winRate": 0.5
   },
@@ -324,7 +324,7 @@
    "blueBans": 2,
    "champion": "Ashe",
    "picks": 5,
-   "presence": 0.211,
+   "presence": 0.2,
    "redBans": 1,
    "winRate": 0.6
   },
@@ -333,7 +333,7 @@
    "blueBans": 5,
    "champion": "Gnar",
    "picks": 2,
-   "presence": 0.211,
+   "presence": 0.2,
    "redBans": 1,
    "winRate": 1
   },
@@ -342,7 +342,7 @@
    "blueBans": 1,
    "champion": "Rakan",
    "picks": 6,
-   "presence": 0.211,
+   "presence": 0.2,
    "redBans": 1,
    "winRate": 0.333
   },
@@ -351,7 +351,7 @@
    "blueBans": 3,
    "champion": "Skarner",
    "picks": 1,
-   "presence": 0.211,
+   "presence": 0.2,
    "redBans": 4,
    "winRate": 1
   },
@@ -360,7 +360,16 @@
    "blueBans": 4,
    "champion": "Sylas",
    "picks": 3,
-   "presence": 0.211,
+   "presence": 0.2,
+   "redBans": 1,
+   "winRate": 0.333
+  },
+  {
+   "bans": 2,
+   "blueBans": 1,
+   "champion": "Wukong",
+   "picks": 6,
+   "presence": 0.2,
    "redBans": 1,
    "winRate": 0.333
   },
@@ -369,7 +378,7 @@
    "blueBans": 4,
    "champion": "Yone",
    "picks": 2,
-   "presence": 0.211,
+   "presence": 0.2,
    "redBans": 2,
    "winRate": 0
   },
@@ -378,7 +387,7 @@
    "blueBans": 0,
    "champion": "Camille",
    "picks": 5,
-   "presence": 0.184,
+   "presence": 0.175,
    "redBans": 2,
    "winRate": 0.4
   },
@@ -387,7 +396,7 @@
    "blueBans": 2,
    "champion": "Maokai",
    "picks": 1,
-   "presence": 0.184,
+   "presence": 0.175,
    "redBans": 4,
    "winRate": 0
   },
@@ -396,34 +405,43 @@
    "blueBans": 2,
    "champion": "Renekton",
    "picks": 3,
-   "presence": 0.184,
+   "presence": 0.175,
    "redBans": 2,
    "winRate": 0.667
   },
   {
-   "bans": 2,
+   "bans": 1,
    "blueBans": 1,
-   "champion": "Wukong",
-   "picks": 5,
-   "presence": 0.184,
-   "redBans": 1,
-   "winRate": 0.4
+   "champion": "Yunara",
+   "picks": 6,
+   "presence": 0.175,
+   "redBans": 0,
+   "winRate": 0.667
   },
   {
    "bans": 0,
    "blueBans": 0,
    "champion": "Milio",
    "picks": 6,
-   "presence": 0.158,
+   "presence": 0.15,
    "redBans": 0,
    "winRate": 0.333
+  },
+  {
+   "bans": 1,
+   "blueBans": 1,
+   "champion": "Shen",
+   "picks": 5,
+   "presence": 0.15,
+   "redBans": 0,
+   "winRate": 0.4
   },
   {
    "bans": 2,
    "blueBans": 2,
    "champion": "Trundle",
    "picks": 4,
-   "presence": 0.158,
+   "presence": 0.15,
    "redBans": 0,
    "winRate": 0.5
   },
@@ -432,25 +450,16 @@
    "blueBans": 0,
    "champion": "Vayne",
    "picks": 0,
-   "presence": 0.158,
+   "presence": 0.15,
    "redBans": 6,
    "winRate": null
-  },
-  {
-   "bans": 1,
-   "blueBans": 1,
-   "champion": "Yunara",
-   "picks": 5,
-   "presence": 0.158,
-   "redBans": 0,
-   "winRate": 0.6
   },
   {
    "bans": 2,
    "blueBans": 1,
    "champion": "Anivia",
    "picks": 3,
-   "presence": 0.132,
+   "presence": 0.125,
    "redBans": 1,
    "winRate": 0.333
   },
@@ -459,7 +468,7 @@
    "blueBans": 1,
    "champion": "Naafiri",
    "picks": 4,
-   "presence": 0.132,
+   "presence": 0.125,
    "redBans": 0,
    "winRate": 0.25
   },
@@ -468,7 +477,7 @@
    "blueBans": 3,
    "champion": "Poppy",
    "picks": 1,
-   "presence": 0.132,
+   "presence": 0.125,
    "redBans": 1,
    "winRate": 1
   },
@@ -477,17 +486,8 @@
    "blueBans": 0,
    "champion": "Ryze",
    "picks": 4,
-   "presence": 0.132,
+   "presence": 0.125,
    "redBans": 1,
-   "winRate": 0.5
-  },
-  {
-   "bans": 1,
-   "blueBans": 1,
-   "champion": "Shen",
-   "picks": 4,
-   "presence": 0.132,
-   "redBans": 0,
    "winRate": 0.5
   },
   {
@@ -495,7 +495,7 @@
    "blueBans": 0,
    "champion": "Twisted Fate",
    "picks": 3,
-   "presence": 0.132,
+   "presence": 0.125,
    "redBans": 2,
    "winRate": 0.667
   },
@@ -504,7 +504,7 @@
    "blueBans": 0,
    "champion": "Xayah",
    "picks": 4,
-   "presence": 0.132,
+   "presence": 0.125,
    "redBans": 1,
    "winRate": 0.5
   },
@@ -513,16 +513,25 @@
    "blueBans": 1,
    "champion": "Ziggs",
    "picks": 4,
-   "presence": 0.132,
+   "presence": 0.125,
    "redBans": 0,
    "winRate": 0.25
+  },
+  {
+   "bans": 3,
+   "blueBans": 1,
+   "champion": "Aurora",
+   "picks": 1,
+   "presence": 0.1,
+   "redBans": 2,
+   "winRate": 0
   },
   {
    "bans": 2,
    "blueBans": 2,
    "champion": "Bard",
    "picks": 2,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 0,
    "winRate": 0.5
   },
@@ -531,7 +540,7 @@
    "blueBans": 1,
    "champion": "Corki",
    "picks": 2,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 1,
    "winRate": 1
   },
@@ -540,7 +549,7 @@
    "blueBans": 3,
    "champion": "Draven",
    "picks": 1,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 0,
    "winRate": 1
   },
@@ -549,7 +558,7 @@
    "blueBans": 1,
    "champion": "Kai'Sa",
    "picks": 3,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 0,
    "winRate": 0.333
   },
@@ -558,7 +567,7 @@
    "blueBans": 1,
    "champion": "Kog'Maw",
    "picks": 3,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 0,
    "winRate": 0.667
   },
@@ -567,7 +576,7 @@
    "blueBans": 1,
    "champion": "LeBlanc",
    "picks": 1,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 2,
    "winRate": 1
   },
@@ -576,7 +585,7 @@
    "blueBans": 0,
    "champion": "Leona",
    "picks": 4,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 0,
    "winRate": 0.5
   },
@@ -585,7 +594,7 @@
    "blueBans": 0,
    "champion": "Miss Fortune",
    "picks": 4,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 0,
    "winRate": 0.5
   },
@@ -594,7 +603,7 @@
    "blueBans": 0,
    "champion": "Pyke",
    "picks": 1,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 3,
    "winRate": 0
   },
@@ -603,7 +612,7 @@
    "blueBans": 1,
    "champion": "Taliyah",
    "picks": 2,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 1,
    "winRate": 0
   },
@@ -612,7 +621,7 @@
    "blueBans": 0,
    "champion": "Zaahen",
    "picks": 4,
-   "presence": 0.105,
+   "presence": 0.1,
    "redBans": 0,
    "winRate": 0.75
   },
@@ -621,7 +630,7 @@
    "blueBans": 0,
    "champion": "Ahri",
    "picks": 3,
-   "presence": 0.079,
+   "presence": 0.075,
    "redBans": 0,
    "winRate": 0.667
   },
@@ -630,25 +639,25 @@
    "blueBans": 2,
    "champion": "Aphelios",
    "picks": 1,
-   "presence": 0.079,
+   "presence": 0.075,
    "redBans": 0,
    "winRate": 1
   },
   {
-   "bans": 2,
+   "bans": 1,
    "blueBans": 1,
-   "champion": "Aurora",
-   "picks": 1,
-   "presence": 0.079,
-   "redBans": 1,
-   "winRate": 0
+   "champion": "Kled",
+   "picks": 2,
+   "presence": 0.075,
+   "redBans": 0,
+   "winRate": 0.5
   },
   {
    "bans": 1,
    "blueBans": 0,
    "champion": "Neeko",
    "picks": 2,
-   "presence": 0.079,
+   "presence": 0.075,
    "redBans": 1,
    "winRate": 0
   },
@@ -657,7 +666,7 @@
    "blueBans": 0,
    "champion": "Ornn",
    "picks": 2,
-   "presence": 0.079,
+   "presence": 0.075,
    "redBans": 1,
    "winRate": 0.5
   },
@@ -666,7 +675,7 @@
    "blueBans": 0,
    "champion": "Sejuani",
    "picks": 3,
-   "presence": 0.079,
+   "presence": 0.075,
    "redBans": 0,
    "winRate": 0.333
   },
@@ -675,7 +684,7 @@
    "blueBans": 0,
    "champion": "Sivir",
    "picks": 2,
-   "presence": 0.079,
+   "presence": 0.075,
    "redBans": 1,
    "winRate": 0.5
   },
@@ -684,16 +693,25 @@
    "blueBans": 0,
    "champion": "Tristana",
    "picks": 3,
-   "presence": 0.079,
+   "presence": 0.075,
    "redBans": 0,
    "winRate": 0
+  },
+  {
+   "bans": 1,
+   "blueBans": 0,
+   "champion": "Varus",
+   "picks": 2,
+   "presence": 0.075,
+   "redBans": 1,
+   "winRate": 1
   },
   {
    "bans": 2,
    "blueBans": 2,
    "champion": "Xin Zhao",
    "picks": 1,
-   "presence": 0.079,
+   "presence": 0.075,
    "redBans": 0,
    "winRate": 1
   },
@@ -702,35 +720,26 @@
    "blueBans": 0,
    "champion": "Aatrox",
    "picks": 2,
-   "presence": 0.053,
-   "redBans": 0,
-   "winRate": 0
-  },
-  {
-   "bans": 1,
-   "blueBans": 1,
-   "champion": "Kled",
-   "picks": 1,
-   "presence": 0.053,
+   "presence": 0.05,
    "redBans": 0,
    "winRate": 0
   },
   {
    "bans": 0,
    "blueBans": 0,
-   "champion": "Rell",
+   "champion": "Annie",
    "picks": 2,
-   "presence": 0.053,
+   "presence": 0.05,
    "redBans": 0,
    "winRate": 1
   },
   {
-   "bans": 1,
+   "bans": 0,
    "blueBans": 0,
-   "champion": "Varus",
-   "picks": 1,
-   "presence": 0.053,
-   "redBans": 1,
+   "champion": "Rell",
+   "picks": 2,
+   "presence": 0.05,
+   "redBans": 0,
    "winRate": 1
   },
   {
@@ -738,7 +747,7 @@
    "blueBans": 0,
    "champion": "Volibear",
    "picks": 1,
-   "presence": 0.053,
+   "presence": 0.05,
    "redBans": 1,
    "winRate": 1
   },
@@ -747,25 +756,16 @@
    "blueBans": 0,
    "champion": "Yorick",
    "picks": 2,
-   "presence": 0.053,
+   "presence": 0.05,
    "redBans": 0,
    "winRate": 0
   },
   {
    "bans": 0,
    "blueBans": 0,
-   "champion": "Annie",
-   "picks": 1,
-   "presence": 0.026,
-   "redBans": 0,
-   "winRate": 1
-  },
-  {
-   "bans": 0,
-   "blueBans": 0,
    "champion": "Cho'Gath",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 1
   },
@@ -774,7 +774,7 @@
    "blueBans": 0,
    "champion": "Hwei",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 0
   },
@@ -783,7 +783,7 @@
    "blueBans": 0,
    "champion": "Kennen",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 1
   },
@@ -792,7 +792,7 @@
    "blueBans": 0,
    "champion": "Kha'Zix",
    "picks": 0,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 1,
    "winRate": null
   },
@@ -801,7 +801,7 @@
    "blueBans": 1,
    "champion": "Kindred",
    "picks": 0,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": null
   },
@@ -810,7 +810,16 @@
    "blueBans": 0,
    "champion": "Lillia",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
+   "redBans": 0,
+   "winRate": 0
+  },
+  {
+   "bans": 0,
+   "blueBans": 0,
+   "champion": "Lissandra",
+   "picks": 1,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 0
   },
@@ -819,7 +828,7 @@
    "blueBans": 0,
    "champion": "Malphite",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 0
   },
@@ -828,7 +837,7 @@
    "blueBans": 0,
    "champion": "Mel",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 0
   },
@@ -837,7 +846,7 @@
    "blueBans": 0,
    "champion": "Nami",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 0
   },
@@ -846,7 +855,7 @@
    "blueBans": 0,
    "champion": "Nasus",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 0
   },
@@ -855,7 +864,7 @@
    "blueBans": 0,
    "champion": "Twitch",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 0
   },
@@ -864,7 +873,7 @@
    "blueBans": 0,
    "champion": "Vel'Koz",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 1
   },
@@ -873,7 +882,7 @@
    "blueBans": 0,
    "champion": "Yuumi",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 1
   },
@@ -882,7 +891,7 @@
    "blueBans": 0,
    "champion": "Zeri",
    "picks": 1,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 0,
    "winRate": 1
   },
@@ -891,12 +900,12 @@
    "blueBans": 0,
    "champion": "Zyra",
    "picks": 0,
-   "presence": 0.026,
+   "presence": 0.025,
    "redBans": 1,
    "winRate": null
   }
  ],
- "publishedAt": "2026-10-25T13:11:11Z",
+ "publishedAt": "2026-10-25T18:58:20Z",
  "stages": [
   {
    "id": "6fa7d88e-abaf-537a-b23c-22b18b019f67",
@@ -1318,7 +1327,7 @@
        },
        "round": "Round 3",
        "scheduledAt": "2026-10-25T17:00:00.000Z",
-       "status": "scheduled",
+       "status": "completed",
        "teams": [
         {
          "candidates": null,
@@ -1329,7 +1338,7 @@
           "publicId": 576,
           "publicSlug": "hanwha-life-esports"
          },
-         "score": null,
+         "score": 0,
          "shortName": "HLE"
         },
         {
@@ -1341,7 +1350,7 @@
           "publicId": 30,
           "publicSlug": "invictus-gaming"
          },
-         "score": null,
+         "score": 1,
          "shortName": "iG"
         }
        ]
@@ -1429,7 +1438,7 @@
        },
        "round": "Round 3",
        "scheduledAt": "2026-10-25T18:00:00.000Z",
-       "status": "scheduled",
+       "status": "completed",
        "teams": [
         {
          "candidates": null,
@@ -1440,7 +1449,7 @@
           "publicId": 1183,
           "publicSlug": "top-esports"
          },
-         "score": null,
+         "score": 1,
          "shortName": "TES"
         },
         {
@@ -1452,7 +1461,7 @@
           "publicId": 405,
           "publicSlug": "g2-esports"
          },
-         "score": null,
+         "score": 0,
          "shortName": "G2"
         }
        ]
@@ -2202,9 +2211,43 @@
       },
       {
        "gameLosses": 1,
-       "gameWins": 1,
+       "gameWins": 2,
        "losses": 1,
        "rank": 5,
+       "team": {
+        "id": "fdaaf61b-ae16-52d8-b483-b8422df07d64",
+        "logoUrl": "https://assets.dpm.lol/team-assets/sha256/37/377fdc2aed72f698cf69ddfae6d7dea52fa25dca9f5c03e0c9fe9e50c2ae3c91.png",
+        "name": "Invictus Gaming",
+        "ref": {
+         "publicId": 30,
+         "publicSlug": "invictus-gaming"
+        },
+        "shortName": "iG"
+       },
+       "wins": 2
+      },
+      {
+       "gameLosses": 1,
+       "gameWins": 2,
+       "losses": 1,
+       "rank": 5,
+       "team": {
+        "id": "31e5901a-5c63-5c8d-8333-cc5e34b3090c",
+        "logoUrl": "https://assets.dpm.lol/team-assets/sha256/da/da295207655af41820cbbfd7d476be6b3c8142f09b3b3eb42a9eb57d58596f4e.png",
+        "name": "Top Esports",
+        "ref": {
+         "publicId": 1183,
+         "publicSlug": "top-esports"
+        },
+        "shortName": "TES"
+       },
+       "wins": 2
+      },
+      {
+       "gameLosses": 1,
+       "gameWins": 1,
+       "losses": 1,
+       "rank": 7,
        "team": {
         "id": "382bf2b8-7cf9-52a4-bfd0-dec688a09219",
         "logoUrl": "https://assets.dpm.lol/team-assets/sha256/d5/d5ad894080f8cfee5c41a2c28fa7bb5cafbe6c203963b76e6dc2d46987654962.png",
@@ -2221,7 +2264,7 @@
        "gameLosses": 1,
        "gameWins": 1,
        "losses": 1,
-       "rank": 5,
+       "rank": 7,
        "team": {
         "id": "8f133bfd-46bd-5e4a-afbf-583f6cd6b23c",
         "logoUrl": "https://assets.dpm.lol/team-assets/sha256/81/817f98ad032538ae09e86b6587d5f8959eaa55635439436a67af972402c016d0.png",
@@ -2238,58 +2281,7 @@
        "gameLosses": 1,
        "gameWins": 1,
        "losses": 1,
-       "rank": 5,
-       "team": {
-        "id": "db61f50f-c010-54a8-9b1b-a56aafac13e6",
-        "logoUrl": "https://assets.dpm.lol/team-assets/sha256/d9/d94a0ac7fb371cb711f9622fdff60d5cb6b9122798e7c53ed0a94c0f5692c151.png",
-        "name": "G2 Esports",
-        "ref": {
-         "publicId": 405,
-         "publicSlug": "g2-esports"
-        },
-        "shortName": "G2"
-       },
-       "wins": 1
-      },
-      {
-       "gameLosses": 1,
-       "gameWins": 1,
-       "losses": 1,
-       "rank": 5,
-       "team": {
-        "id": "195a035b-bbbb-5d74-9bb7-a7e8ebd7a35f",
-        "logoUrl": "https://assets.dpm.lol/team-assets/sha256/b5/b525ea77b187e63db1a47d1f0aff7ff3f92df15f069f6bac935d263817f54590.png",
-        "name": "Hanwha Life Esports",
-        "ref": {
-         "publicId": 576,
-         "publicSlug": "hanwha-life-esports"
-        },
-        "shortName": "HLE"
-       },
-       "wins": 1
-      },
-      {
-       "gameLosses": 1,
-       "gameWins": 1,
-       "losses": 1,
-       "rank": 5,
-       "team": {
-        "id": "fdaaf61b-ae16-52d8-b483-b8422df07d64",
-        "logoUrl": "https://assets.dpm.lol/team-assets/sha256/37/377fdc2aed72f698cf69ddfae6d7dea52fa25dca9f5c03e0c9fe9e50c2ae3c91.png",
-        "name": "Invictus Gaming",
-        "ref": {
-         "publicId": 30,
-         "publicSlug": "invictus-gaming"
-        },
-        "shortName": "iG"
-       },
-       "wins": 1
-      },
-      {
-       "gameLosses": 1,
-       "gameWins": 1,
-       "losses": 1,
-       "rank": 5,
+       "rank": 7,
        "team": {
         "id": "829bf93b-3787-53ed-a291-fa8eabbcaf09",
         "logoUrl": "https://assets.dpm.lol/team-assets/sha256/ae/aea0a85631116aa2a6c90efbcd0ac3cb39a354cbc46d274341c3fd505c1b54d8.png",
@@ -2306,7 +2298,7 @@
        "gameLosses": 1,
        "gameWins": 1,
        "losses": 1,
-       "rank": 5,
+       "rank": 7,
        "team": {
         "id": "077112f8-78cd-523b-8d75-7dc7bc47cdf7",
         "logoUrl": "https://assets.dpm.lol/team-assets/sha256/c2/c225140b0c0160c3c63e93c40f24842170b4dd0cf64d3e910df8b6b37edf9bcf.png",
@@ -2320,19 +2312,36 @@
        "wins": 1
       },
       {
-       "gameLosses": 1,
+       "gameLosses": 2,
        "gameWins": 1,
-       "losses": 1,
-       "rank": 5,
+       "losses": 2,
+       "rank": 11,
        "team": {
-        "id": "31e5901a-5c63-5c8d-8333-cc5e34b3090c",
-        "logoUrl": "https://assets.dpm.lol/team-assets/sha256/da/da295207655af41820cbbfd7d476be6b3c8142f09b3b3eb42a9eb57d58596f4e.png",
-        "name": "Top Esports",
+        "id": "db61f50f-c010-54a8-9b1b-a56aafac13e6",
+        "logoUrl": "https://assets.dpm.lol/team-assets/sha256/d9/d94a0ac7fb371cb711f9622fdff60d5cb6b9122798e7c53ed0a94c0f5692c151.png",
+        "name": "G2 Esports",
         "ref": {
-         "publicId": 1183,
-         "publicSlug": "top-esports"
+         "publicId": 405,
+         "publicSlug": "g2-esports"
         },
-        "shortName": "TES"
+        "shortName": "G2"
+       },
+       "wins": 1
+      },
+      {
+       "gameLosses": 2,
+       "gameWins": 1,
+       "losses": 2,
+       "rank": 11,
+       "team": {
+        "id": "195a035b-bbbb-5d74-9bb7-a7e8ebd7a35f",
+        "logoUrl": "https://assets.dpm.lol/team-assets/sha256/b5/b525ea77b187e63db1a47d1f0aff7ff3f92df15f069f6bac935d263817f54590.png",
+        "name": "Hanwha Life Esports",
+        "ref": {
+         "publicId": 576,
+         "publicSlug": "hanwha-life-esports"
+        },
+        "shortName": "HLE"
        },
        "wins": 1
       },
